@@ -1,0 +1,146 @@
+body {
+  background-color: white;
+  position: relative;
+  overflow: none;
+  margin: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: white;
+  font-size: 32px;
+  text-align: left;
+  width: 500px;
+}
+h2 {
+  color: white;
+  margin: 20px;
+}
+.item {
+  color: darkblue;
+  margin: 20px 20px;
+  font-size: 14pt;
+}
+nav {
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border: 5px solid darkblue;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  width: max-content;
+  display: flex;
+  color: white;
+  font-size: large;
+}
+img {
+  margin: 20px;
+}
+.img1 {
+  height: 50px;
+  width: 50px;
+}
+.letak_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+.img2 {
+  height: 37px;
+  width: 50px;
+}
+.login {
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  border: 0;
+  font-weight: bolder;
+  background: black;
+  color: whitesmoke;
+  border: 3px solid whitesmoke;
+}
+.login:hover {
+  background: lightblue;
+  color: whitesmoke;
+  border: 3px solid whitesmoke;
+}
+.signup {
+  width: 120px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  border: 0;
+  font-weight: bolder;
+  background: whitesmoke;
+  color: black;
+  border: 3px solid black;
+}
+.signup:hover {
+  background: lightblue;
+  color: whitesmoke;
+  border: 3px solid whitesmoke;
+}
+.Bar {
+  width: 100%;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+.img5 {
+  width: 209px;
+  height: auto;
+}
+
+h3 {
+  color: whitesmoke;
+}
+.logo {
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30pt;
+  font-weight: bolder;
+  -webkit-text-stroke: 1.3pt darkblue;
+}
+#Beranda {
+  width: 99%;
+  height: 500px;
+  background-color: darkblue;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+.paragraf {
+  width: 500px;
+  font-size: 14pt;
+  color: white;
+}
+footer {
+  width: 100%;
+}
+.footer {
+  background-color: darkblue;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
